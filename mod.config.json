@@ -1,0 +1,26 @@
+{
+    "name": "TheMagProject",
+    "author": "Unreal_Unicorn",
+    "version": "1.0.0",
+    "license": "MIT",
+    "src": {
+        "src/modloader.js": "CacheModLoad",
+        "src/gun.js": "CacheModLoad"
+    },
+    "folders": [
+        "files/items",
+        "files/assort/ragfair",
+        "files/locales/en",
+        "files/templates"
+    ],
+    "filenames": [
+        "UMP4550m",
+		"50RoundVector45",
+		"50RoundAPS",
+		"mk25",
+		"mk50",
+		"Saiga20"
+
+    ],
+    "required": []
+}
