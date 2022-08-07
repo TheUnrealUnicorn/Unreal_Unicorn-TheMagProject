@@ -1,5 +1,7 @@
 exports.mod = (mod_data) => {
     logger.logInfo(`[MOD] ${mod_data.name}`);
+	
+	res.bundles['UMP4550m'] = {manifest: 'user/mods/Unreal_Unicorn-TheMagProject-1.0.0/bundles/manifest.json'}
 	// we gonna edit cache files in order to add everything - we also not gonna use lateLoaded flag so thsi script will be loaded just after cache is created
 	
 	//disclaimer: a file name should be an "_id" of an item from items.json
